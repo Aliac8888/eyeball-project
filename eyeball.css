@@ -1,0 +1,74 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color:#16a085;
+}
+
+.tutorial{
+    position:absolute;
+    top: 5%;
+    left: 40.5%;
+    transition:.4s;
+}
+
+.tutorial:hover{
+    transform: scale(1.2);
+    cursor:grab;
+}
+
+.eyes{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    text-align: center;
+}
+
+.eye{
+    width: 240px;
+    height: 120px;
+    background-color: white;
+    display:inline-block;
+    margin: 40px;
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+}
+
+.ball{
+    width: 40px;
+    height: 40px;
+    background-color: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 50%;
+    border: 15px solid lightblue;
+}
+
+footer{
+    position: absolute;
+    width: 100%;
+    top: 84%;
+}
+
+footer div{
+    position: absolute;
+    text-align: center;
+    left: 40%;
+}
+
+span{
+    color: gold;
+}
+
+h4{
+    color: white;
+    transition: .4s;
+}
+
+h4:hover{
+    transform: scale(1.5);
+    cursor: grab;
+}
